@@ -1,0 +1,22 @@
+19 18 17
+
+idleFront
+0 0 0
+
+idleBack
+0 5 5
+
+idleSide
+0 10 10
+
+moveFront
+0.5 0 4
+
+moveBack
+0.5 5 9
+
+moveSide
+0.5 10 14
+
+die
+0.5 15 18
