@@ -1,22 +1,22 @@
 17 20 22
 
 idleFront
-0.5 0 3
+0,5 0 3
 
 idleBack
-0.5 4 7
+0,5 4 7
 
 idleSide
-0.5 8 11
+0,5 8 11
 
 moveFront
-0.5 0 3
+0,5 0 3
 
 moveBack
-0.5 4 7
+0,5 4 7
 
 moveSide
-0.5 8 11
+0,5 8 11
 
 die
-0.5 12 16
+0,5 12 16

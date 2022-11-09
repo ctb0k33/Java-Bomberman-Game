@@ -16,7 +16,7 @@ public class Map {
 	public static final int cellSide = 48, startX = 0, startY = 80;
 	private static final List<List<Character>> grid = new ArrayList<>();
 	private static final List<Point2D> randomPortalPos = new ArrayList<>();
-	private static final List<String> designSource = List.of("map1");//, "map2", "map3", "map4");
+	private static final List<String> designSource = List.of("map1","map2","map3","map4");
 	private static final List<String> textureList = List.of("valley", "primal", "edo", "modern", "loot", "candy");
 	private static final List<String> enemy = List.of("baromu", "onil");//, "golem", "devastator");
 	private static final List<String> spawnableEnemy = new ArrayList<>(enemy.size());

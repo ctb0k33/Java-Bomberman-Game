@@ -54,7 +54,7 @@ public class Spawner
 	
 	@Spawns("bomb")
 	public Entity bomb(SpawnData data) {
-		Sound.play("Enchanted Bomb/src/main/resources/assets/sounds/BombPlant.wav");
+		Sound.play("BomberGirl-G15/Enchanted Bomb/src/main/resources/assets/sounds/BombPlant.wav");
 		return FXGL.entityBuilder()
 		           .type(Type.BOMB)
 		           .zIndex(-1)
@@ -68,7 +68,7 @@ public class Spawner
 	
 	@Spawns("explosion_core")
 	public Entity eCore(SpawnData data) {
-		Sound.play("Enchanted Bomb/src/main/resources/assets/sounds/Explosion.wav");
+		Sound.play("BomberGirl-G15/Enchanted Bomb/src/main/resources/assets/sounds/Explosion.wav");
 		return FXGL.entityBuilder()
 		           .type(Type.EXPLOSION)
 		           .zIndex(-1)

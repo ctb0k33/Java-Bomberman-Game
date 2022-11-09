@@ -80,7 +80,7 @@ public class Main
 	@Override
 	protected void initGame() {
 		ChronMainMenu.stop();
-		Sound.Loop("Enchanted Bomb/src/main/resources/assets/sounds/GameMusic.wav");
+		Sound.Loop("BomberGirl-G15/Enchanted Bomb/src/main/resources/assets/sounds/GameMusic.wav");
 		FXGL.getGameWorld().addEntityFactory(new Spawner());
 	}
 	
@@ -189,7 +189,7 @@ public class Main
 			}
 		});
 		FXGL.onCollision(Type.PLAYER, Type.ITEM, (player, item) -> {
-			Sound.play("Enchanted Bomb/src/main/resources/assets/sounds/TakeItem.wav");
+			Sound.play("BomberGirl-G15/Enchanted Bomb/src/main/resources/assets/sounds/TakeItem.wav");
 			var type = item.getString("type");
 			var lastIndex = type.length() - 1;
 			switch(type.substring(0, lastIndex)) {
@@ -246,7 +246,7 @@ public class Main
 			@Override
 			protected void onCollisionEnd(Entity softWall,
 			                              Entity explosion) {
-				Sound.play("Enchanted Bomb/src/main/resources/assets/sounds/BrickDebris.wav");
+				Sound.play("BomberGirl-G15/Enchanted Bomb/src/main/resources/assets/sounds/BrickDebris.wav");
 				var wPosComp = softWall.getComponent(Position.class);
 				if(FXGLMath.randomBoolean(0.2)) Map.spawnItem(wPosComp.getCellPos(wPosComp.getPos()));
 			}
@@ -290,7 +290,10 @@ public class Main
 		FXGL.getInput().setProcessInput(false);
 		FXGL.getDialogService().showConfirmationBox("Game over\nPlay again ? ", yes -> {
 			var controller = FXGL.getGameController();
-			if(yes) controller.startNewGame();
+			if(yes) {
+				Sound.loop.stop();
+				controller.startNewGame();
+			}
 			else {
 				controller.gotoMainMenu();
 				Sound.loop.stop();

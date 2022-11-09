@@ -118,7 +118,7 @@ public class ChronMainMenu extends FXGLMenu {
     }
     public static void start(){
 //
-        media = new Media(new File("Enchanted Bomb/src/main/resources/assets/sounds/KleeTheme.wav").toURI().toString());
+        media = new Media(new File("BomberGirl-G15/Enchanted Bomb/src/main/resources/assets/sounds/KleeTheme.wav").toURI().toString());
         mediaPlayer = new MediaPlayer(media);
         mediaPlayer.setVolume(0.3);
         mediaPlayer.play();
