@@ -19,7 +19,7 @@ This enemy can chase player if they find a path in a radar radius. <br/>
 ![314451654_8214851198586664_2686516291353697888_n](https://user-images.githubusercontent.com/96061934/201526388-41267239-f095-448b-a762-36e34112783c.png) <br/><br/>
 Player: <br/>
 ![312984842_692966542053202_531387128757383128_n](https://user-images.githubusercontent.com/96061934/201526789-6fa7aae7-7f1b-4d0d-94db-dffd9055217e.png)<br/><br/>
-Buff/Debuff item:
+Buff/Debuff item:<br/>
 These items can increase/decrease the power of player ( increase/decrease speed, increase/decrease hp, dmg buff/debuff, ... ) <br/>
 ![311321782_501179485389443_2660431702069480560_n](https://user-images.githubusercontent.com/96061934/201526685-0cacfc49-d611-4fa5-8383-dbbff6d90fc9.png) <br/><br/>
 Bomb:<br/>
